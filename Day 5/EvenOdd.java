@@ -1,3 +1,25 @@
+/* In the given problem we are counting the even and odd between the given range by the user
+
+Sample input 1 :
+Enter the value of L:
+45
+Enter the value of R:
+99
+Sample output 1 :
+Count of odd numbers is 28
+Count of even numbers is 27
+
+Sample input 2 :
+Enter the value of L:
+12
+Enter the value of R:
+91
+Sample output 2 :
+Count of odd numbers is 40
+Count of even numbers is 40   */
+
+
+
 import java.util.*;
 class EvenOdd {
     static int countOdd(int L, int R)
