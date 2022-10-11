@@ -1,3 +1,9 @@
+/* insertion of the elements in linked list 
+
+sample input : 11 , 21 , 10, 10 ,20, 31 , key = 10
+sample output : 11 -> 21 -> 10 -> 10 -> 20 -> 31
+sample output : 2  */
+
 class Node {
     int data;
     Node next;
