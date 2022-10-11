@@ -1,3 +1,19 @@
+/*  In the given problem we are printing all months name using enum fuction
+
+ Sample output : 
+ January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December  */
+
 public class MonthEnum {
     public enum Month { Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec } 
     public static void main (String [] args) {
