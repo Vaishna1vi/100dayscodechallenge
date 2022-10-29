@@ -7,6 +7,7 @@ Enter the number 2: 44
 Sample Output :
 Sum of 2 numbers : 61  */
 
+
 import java.util.*;
 class Sum {
     public static void main(String[] args) {
