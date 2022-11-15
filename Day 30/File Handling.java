@@ -5,6 +5,7 @@
    
    In the try block we are giving the Array size is equal to 105 then we check the available byte in the file.
    It will read the data stored in the file by read operation and then it will close the file with close function.
+   And if there will be any error then it will perform the exception condition that is written in the catch block.
    
    Output :-
    
