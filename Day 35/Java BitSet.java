@@ -1,37 +1,43 @@
- /*        Given  BitSets,  and , of size  where all bits in both BitSets are initialized to , perform a series of  operations. After each operation, print the number of set bits in the respective BitSets as two space-separated integers on a new line.
+ /*        Given 2 BitSets, B1 and B2, of size N where all bits in both BitSets are initialized to 0, perform a series of M operations.
+           After each operation, print the number of set bits in the respective BitSets as two space-separated integers on a new line.
 
-Input Format
+Input Format :-
 
-The first line contains  space-separated integers,  (the length of both BitSets  and ) and  (the number of operations to perform), respectively.
-The  subsequent lines each contain an operation in one of the following forms:
+The first line contains 2 space-separated integers, N (the length of both BitSets B1 and B2) and M (the number of operations to perform), respectively.
+The M subsequent lines each contain an operation in one of the following forms:
 
-AND 
-OR 
-XOR 
-FLIP
-SET 
-In the list above,  is the integer  or , where  denotes  and  denotes .
- is an integer denoting a bit's index in the BitSet corresponding to .
+AND <set> <set>
+OR <set> <set>
+XOR <set> <set>
+FLIP <set> <index>
+SET <set> <index>
 
-For the binary operations , , and , operands are read from left to right and the BitSet resulting from the operation replaces the contents of the first operand. For example:
+In the list above, <set> is the integer 1 or 2, where 1 denotes B1 and 2 denotes B2.
+<index> is an integer denoting a bit's index in the BitSet corresponding to <set>.
 
-AND 2 1
- is the left operand, and  is the right operand. This operation should assign the result of  to .
+For the binary operations AND, OR, and XOR, operands are read from left to right and the BitSet resulting from the operation replaces the contents of the first operand.
 
-Constraints
+For example:  AND 2 1
+B2 is the left operand, and B1 is the right operand. This operation should assign the result of B1^B2 to B2.
 
-Output Format
+Constraints :-
 
-After each operation, print the respective number of set bits in BitSet  and BitSet  as  space-separated integers on a new line.
+1<= N <=1000
+1<= M <=10000
 
-Sample Input
+Output Format :-
+
+After each operation, print the respective number of set bits in BitSet B1 and BitSet B2 as 2 space-separated integers on a new line.
+
+Sample Input :-
 
 5 4
 AND 1 2
 SET 1 4
 FLIP 2 2
 OR 2 1
-Sample Output
+
+Sample Output :-
 
 0 0
 1 0
