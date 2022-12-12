@@ -16,7 +16,7 @@ Lily
 
 Explanation :-
 
-An AndhraPradesh object's yourNationalFlower method returns an instance of the Lily class, and the Lily class' whatsYourName method returns Lily.      */
+An AndhraPradesh object's yourNationalFlower method returns an instance of the Lily class, and the Lily class' whatsYourName method returns Lily.        */
 
 
 
