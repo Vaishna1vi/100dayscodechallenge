@@ -40,6 +40,7 @@ Sample Output 0 :-
 
 
 
+
 import java.util.LinkedList;
 import java.util.Scanner;
 
